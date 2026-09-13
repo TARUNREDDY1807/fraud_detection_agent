@@ -137,6 +137,8 @@ Includes a custom futuristic dashboard with:
 
 ## 🏗️ Project Structure
 
+## 🏗️ Project Structure
+
 ```text
 sentinel-ai-fraud-detection/
 │
@@ -152,13 +154,18 @@ sentinel-ai-fraud-detection/
 │   ├── charts.py
 │   └── styles.css
 │
+├── images/
+│   ├── 01-start-screen.png
+│   ├── 02-overview-analytics.png
+│   ├── 03-investigation-center.png
+│   └── 04-threat-queue.png
+│
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
 └── README.md
-```
-
----
+'''
+'''
 
 ## ⚙️ How It Works
 
@@ -200,6 +207,26 @@ The selected transaction is sent to the AI Investigator.
 The AI provides an explanation of the suspicious behavior and recommended verification steps to support human investigation.
 
 ---
+
+---
+
+## 🖥️ Application Screenshots
+
+### 🚀 Initial Dashboard
+
+![Initial Dashboard](images/01-start-screen.png)
+
+### 📊 Dashboard & Risk Analytics
+
+![Dashboard & Risk Analytics](images/02-overview-analytics.png)
+
+### 🚨 Threat Queue
+
+![Threat Queue](images/04-threat-queue.png)
+
+### 🔎 Investigation Center
+
+![Investigation Center](images/03-investigation-center.png)
 
 ## 🚀 Installation & Usage
 
