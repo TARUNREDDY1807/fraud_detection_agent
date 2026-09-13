@@ -1,4 +1,4 @@
-                                                                      # 🛡️ Sentinel AI — Financial Fraud Detection & Investigation System
+ # 🛡️ Sentinel AI — Financial Fraud Detection & Investigation System
 
 Sentinel AI is an AI-assisted financial fraud detection and investigation system designed to identify potentially suspicious financial transactions, assign risk levels, visualize transaction behavior, and provide AI-generated explanations for flagged transactions.
 
@@ -347,7 +347,7 @@ Possible future enhancements include:
 
 ## 👨‍💻 Author
 
-**Tarun Reddy**
+**TARUNREDDY**
 
 Student project demonstrating the integration of:
 
@@ -357,39 +357,10 @@ Student project demonstrating the integration of:
 
 ## ⭐ Disclaimer
 
+## ⚠️ Disclaimer
+
 This project is intended for educational and demonstration purposes only.
 
-It is not intended to replace professional financial fraud detection systems, banking security controls, or financial crime investigation processes.
-
-````
-
-### One important thing before you push
-
-Your screenshot folder must be:
-
-```text
-screenshots/
-├── 01-start-screen.png
-├── 02-overview-analytics.png
-├── 03-investigation-center.png
-└── 04-threat-queue.png
-````
-
-And your GitHub project should have:
-
-```text
-README.md
-screenshots/
-```
-
-at the same level.
-
-Then run:
-
-```powershell
-git add README.md screenshots
-git commit -m "Add professional README and application screenshots"
-git push
-```
+It uses simulated transaction data and is not intended to replace professional financial fraud detection systems, banking security controls, or financial crime investigation processes.
 
 This version is the one I'd use for your GitHub portfolio. It is detailed enough to explain the project, but not so long that someone has to read a huge document before understanding what **Sentinel AI** does.
