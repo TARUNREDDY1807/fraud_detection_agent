@@ -1,4 +1,4 @@
- # 🛡️ Sentinel AI — Financial Fraud Detection & Investigation System
+# 🛡️ Sentinel AI — Financial Fraud Detection & Investigation System
 
 Sentinel AI is an AI-assisted financial fraud detection and investigation system designed to identify potentially suspicious financial transactions, assign risk levels, visualize transaction behavior, and provide AI-generated explanations for flagged transactions.
 
@@ -119,40 +119,6 @@ Includes a custom futuristic dashboard with:
 
 ---
 
-## 🖥️ Application Screenshots
-
-### 🚀 Initial Dashboard
-
-The initial dashboard allows the user to configure the number of transactions and start the fraud detection analysis.
-
-<img src="Screenshots/start-screen.png" alt="Sentinel AI Initial Dashboard" width="900">
-
----
-
-### 📊 Dashboard & Risk Analytics
-
-The Overview dashboard provides the transaction risk landscape, risk distribution, amount-versus-risk analysis, and transaction dataset.
-
-<img src="Screenshots/overview-analytics.png" alt="Sentinel AI Risk Analytics Dashboard" width="900">
-
----
-
-### 🚨 Threat Queue
-
-The Threat Queue displays suspicious transactions and prioritizes them based on their calculated risk level and risk score.
-
-<img src="Screenshots/threat-queue.png" alt="Sentinel AI Threat Queue" width="900">
-
----
-
-### 🔎 Investigation Center & AI Investigator
-
-The Investigation Center allows analysts to select a suspicious transaction, inspect its risk signals and transaction details, and generate an AI-powered investigation.
-
-<img src="Screenshots/investigation-center.png" alt="Sentinel AI Investigation Center" width="900">
-
----
-
 ## 🧠 Technology Stack
 
 | Technology    | Purpose                                |
@@ -185,12 +151,6 @@ sentinel-ai-fraud-detection/
 │   ├── components.py
 │   ├── charts.py
 │   └── styles.css
-│
-├── screenshots/
-│   ├── start-screen.png
-│   ├── overview-analytics.png
-│   ├── investigation-center.png
-│   └── threat-queue.png
 │
 ├── requirements.txt
 ├── .env.example
@@ -357,10 +317,8 @@ Student project demonstrating the integration of:
 
 ## ⭐ Disclaimer
 
-## ⚠️ Disclaimer
-
 This project is intended for educational and demonstration purposes only.
 
 It uses simulated transaction data and is not intended to replace professional financial fraud detection systems, banking security controls, or financial crime investigation processes.
 
-This version is the one I'd use for your GitHub portfolio. It is detailed enough to explain the project, but not so long that someone has to read a huge document before understanding what **Sentinel AI** does.
+
