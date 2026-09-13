@@ -2,7 +2,7 @@
 
 Sentinel AI is an AI-assisted financial fraud detection and investigation system designed to identify potentially suspicious financial transactions, assign risk levels, visualize transaction behavior, and provide AI-generated explanations for flagged transactions.
 
-The project combines statistical anomaly detection, risk scoring, interactive visualization, and Generative AI to help analysts understand and prioritize potentially suspicious activity.
+The project combines **statistical anomaly detection, risk scoring, interactive visualization, and Generative AI** to help analysts understand and prioritize potentially suspicious activity.
 
 ---
 
@@ -42,7 +42,7 @@ Investigation Center
 AI Investigator
        ↓
 Explanation & Recommended Verification
-````
+```
 
 The system helps an analyst move from a large transaction dataset to prioritized suspicious transactions and understandable AI-assisted investigation results.
 
@@ -58,20 +58,20 @@ Uses **Z-score analysis** to identify transaction amounts that significantly dif
 
 Suspicious transactions receive a risk score from **0–100** and are classified into:
 
-* 🟢 LOW
-* 🟡 MODERATE
-* 🟠 HIGH
-* 🔴 CRITICAL
+- 🟢 **LOW**
+- 🟡 **MODERATE**
+- 🟠 **HIGH**
+- 🔴 **CRITICAL**
 
 ### 📊 Interactive Risk Dashboard
 
 Provides visual analysis of:
 
-* Transaction statistics
-* Risk landscape
-* Risk distribution
-* Transaction amount vs risk
-* Complete transaction dataset
+- Transaction statistics
+- Risk landscape
+- Risk distribution
+- Transaction amount vs risk
+- Complete transaction dataset
 
 ### 🚨 Threat Queue
 
@@ -81,27 +81,27 @@ Displays flagged transactions and prioritizes them according to their calculated
 
 Allows analysts to select and inspect individual suspicious transactions, including:
 
-* Transaction ID
-* Account
-* Transaction type
-* Amount
-* Z-score
-* Risk score
-* Risk level
+- Transaction ID
+- Account
+- Transaction type
+- Amount
+- Z-score
+- Risk score
+- Risk level
 
 ### 🤖 AI Investigator
 
 Uses an LLM-powered investigator to provide:
 
-* Explanation of why a transaction may be suspicious
-* Explanation of the Z-score
-* Recommended verification steps
+- Explanation of why a transaction may be suspicious
+- Explanation of the Z-score
+- Recommended verification steps
 
 The AI assists the analyst and does not independently declare that a transaction is fraudulent.
 
 ### 📈 Interactive Data Visualization
 
-Uses Plotly to visualize transaction risk patterns and distributions.
+Uses **Plotly** to visualize transaction risk patterns and distributions.
 
 ### 📥 CSV Export
 
@@ -111,31 +111,29 @@ Allows the analyzed transaction dataset to be downloaded as a CSV file.
 
 Includes a custom futuristic dashboard with:
 
-* 3D-style background
-* Glassmorphism cards
-* Neon visual effects
-* Risk indicators
-* Responsive layout
+- 3D-style background
+- Glassmorphism cards
+- Neon visual effects
+- Risk indicators
+- Responsive layout
 
 ---
 
 ## 🧠 Technology Stack
 
-| Technology    | Purpose                                |
-| ------------- | -------------------------------------- |
-| Python        | Core application development           |
-| Pandas        | Data processing and analysis           |
-| NumPy         | Numerical and statistical calculations |
-| Streamlit     | Interactive web dashboard              |
-| Plotly        | Data visualization                     |
-| LangChain     | LLM application integration            |
-| Groq          | AI inference                           |
-| Python-dotenv | Environment variable management        |
-| Git & GitHub  | Version control                        |
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Core application development |
+| **Pandas** | Data processing and analysis |
+| **NumPy** | Numerical and statistical calculations |
+| **Streamlit** | Interactive web dashboard |
+| **Plotly** | Data visualization |
+| **LangChain** | LLM application integration |
+| **Groq** | AI inference |
+| **Python-dotenv** | Environment variable management |
+| **Git & GitHub** | Version control |
 
 ---
-
-## 🏗️ Project Structure
 
 ## 🏗️ Project Structure
 
@@ -164,8 +162,9 @@ sentinel-ai-fraud-detection/
 ├── .env.example
 ├── .gitignore
 └── README.md
-'''
-'''
+```
+
+---
 
 ## ⚙️ How It Works
 
@@ -173,10 +172,10 @@ sentinel-ai-fraud-detection/
 
 The system generates simulated financial transactions containing:
 
-* Transaction ID
-* Amount
-* Transaction type
-* Account
+- Transaction ID
+- Amount
+- Transaction type
+- Account
 
 Unusually large transaction amounts are introduced to simulate anomalous activity.
 
@@ -190,7 +189,12 @@ Transactions with unusually high deviations from the normal distribution are fla
 
 The risk engine evaluates transaction characteristics and generates a **risk score between 0 and 100**.
 
-The transaction is then assigned a risk level such as LOW, MODERATE, HIGH, or CRITICAL.
+The transaction is then assigned a risk level such as:
+
+- LOW
+- MODERATE
+- HIGH
+- CRITICAL
 
 ### 4. Threat Prioritization
 
@@ -208,47 +212,61 @@ The AI provides an explanation of the suspicious behavior and recommended verifi
 
 ---
 
----
-
 ## 🖥️ Application Screenshots
 
 ### 🚀 Initial Dashboard
 
-![Initial Dashboard](images/01-start-screen.png)
+The initial dashboard allows the user to configure the number of transactions and start the fraud detection analysis.
+
+![Sentinel AI Initial Dashboard](images/01-start-screen.png)
+
+---
 
 ### 📊 Dashboard & Risk Analytics
 
-![Dashboard & Risk Analytics](images/02-overview-analytics.png)
+The Overview dashboard provides the transaction risk landscape, risk distribution, amount-versus-risk analysis, and transaction dataset.
+
+![Sentinel AI Risk Analytics Dashboard](images/02-overview-analytics.png)
+
+---
 
 ### 🚨 Threat Queue
 
-![Threat Queue](images/04-threat-queue.png)
+The Threat Queue displays suspicious transactions and prioritizes them based on their calculated risk level and risk score.
 
-### 🔎 Investigation Center
+![Sentinel AI Threat Queue](images/04-threat-queue.png)
 
-![Investigation Center](images/03-investigation-center.png)
+---
+
+### 🔎 Investigation Center & AI Investigator
+
+The Investigation Center allows analysts to select a suspicious transaction, inspect its risk signals and transaction details, and generate an AI-powered investigation.
+
+![Sentinel AI Investigation Center](images/03-investigation-center.png)
+
+---
 
 ## 🚀 Installation & Usage
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentinel-ai-fraud-detection.git
+git clone https://github.com/TARUNREDDY1807/fraud_detection_agent.git
 ```
 
-### 2. Open the project
+### 2. Navigate to the Project
 
 ```bash
-cd sentinel-ai-fraud-detection
+cd fraud_detection_agent
 ```
 
-### 3. Create a virtual environment
+### 3. Create a Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 4. Activate the environment
+### 4. Activate the Environment
 
 #### Windows PowerShell
 
@@ -256,7 +274,7 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
-### 5. Install dependencies
+### 5. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -270,7 +288,7 @@ Create a `.env` file in the project root:
 GROQ_API_KEY=your_groq_api_key_here
 ```
 
-### 7. Run the application
+### 7. Run the Application
 
 ```bash
 streamlit run app.py
@@ -282,7 +300,7 @@ The Sentinel AI dashboard will open in your browser.
 
 ## 🔐 Environment Variables
 
-The application requires a Groq API key for the AI Investigator.
+The application requires a **Groq API key** for the AI Investigator.
 
 Create:
 
@@ -300,7 +318,31 @@ A `.env.example` file is included as a configuration template.
 
 The actual `.env` file is excluded from Git using `.gitignore`.
 
-**Never commit your real API key to GitHub.**
+> **Never commit your real API key to GitHub.**
+
+---
+
+## 📊 Detection Workflow
+
+```text
+Generate Transactions
+        ↓
+Calculate Z-Scores
+        ↓
+Detect Statistical Anomalies
+        ↓
+Calculate Risk Score
+        ↓
+Assign Risk Level
+        ↓
+Prioritize Suspicious Transactions
+        ↓
+Analyst Investigation
+        ↓
+AI-Generated Explanation
+        ↓
+Recommended Verification
+```
 
 ---
 
@@ -320,15 +362,15 @@ The AI Investigator is designed to assist human analysis rather than make autono
 
 Possible future enhancements include:
 
-* Account behavioral profiling
-* Transaction velocity detection
-* Machine learning-based fraud classification
-* Real-world transaction datasets
-* Network and relationship analysis
-* Analyst feedback and human-in-the-loop learning
-* PDF investigation reports
-* Authentication and role-based access
-* Cloud deployment
+- Account behavioral profiling
+- Transaction velocity detection
+- Machine learning-based fraud classification
+- Real-world transaction datasets
+- Network and relationship analysis
+- Analyst feedback and human-in-the-loop learning
+- PDF investigation reports
+- Authentication and role-based access
+- Cloud deployment
 
 ---
 
@@ -342,10 +384,8 @@ Student project demonstrating the integration of:
 
 ---
 
-## ⭐ Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended for educational and demonstration purposes only.
 
 It uses simulated transaction data and is not intended to replace professional financial fraud detection systems, banking security controls, or financial crime investigation processes.
-
-
