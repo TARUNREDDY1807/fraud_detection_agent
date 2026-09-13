@@ -125,7 +125,7 @@ Includes a custom futuristic dashboard with:
 
 The initial dashboard allows the user to configure the number of transactions and start the fraud detection analysis.
 
-<img src="screenshots/start-screen.png" alt="Sentinel AI Initial Dashboard" width="900">
+<img src="Screenshots/start-screen.png" alt="Sentinel AI Initial Dashboard" width="900">
 
 ---
 
@@ -133,7 +133,7 @@ The initial dashboard allows the user to configure the number of transactions an
 
 The Overview dashboard provides the transaction risk landscape, risk distribution, amount-versus-risk analysis, and transaction dataset.
 
-<img src="screenshots/overview-analytics.png" alt="Sentinel AI Risk Analytics Dashboard" width="900">
+<img src="Screenshots/overview-analytics.png" alt="Sentinel AI Risk Analytics Dashboard" width="900">
 
 ---
 
@@ -141,7 +141,7 @@ The Overview dashboard provides the transaction risk landscape, risk distributio
 
 The Threat Queue displays suspicious transactions and prioritizes them based on their calculated risk level and risk score.
 
-<img src="screenshots/threat-queue.png" alt="Sentinel AI Threat Queue" width="900">
+<img src="Screenshots/threat-queue.png" alt="Sentinel AI Threat Queue" width="900">
 
 ---
 
@@ -149,7 +149,7 @@ The Threat Queue displays suspicious transactions and prioritizes them based on 
 
 The Investigation Center allows analysts to select a suspicious transaction, inspect its risk signals and transaction details, and generate an AI-powered investigation.
 
-<img src="screenshots/investigation-center.png" alt="Sentinel AI Investigation Center" width="900">
+<img src="Screenshots/investigation-center.png" alt="Sentinel AI Investigation Center" width="900">
 
 ---
 
